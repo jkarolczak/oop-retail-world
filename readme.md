@@ -1,6 +1,9 @@
 # Retail world
 ## Author
 * Name: Jacek Karolczak
+
+## About the project
+The project was implemented as a coursework for the object oriented programming course. It is a very simple simulation of the world. Therefore it's strictly OP oreinted and things like design were not cared at all. There are many world features, which may be changed by a user. The main goal of the simulation is to simulate transmission of the disease over the population living in world, where only shops are opened. As the motivation for the project topic was probably coronavirus pandemic, I decided to add a small culture reference, to make you feel good (that's what she said).
 <hr> 
 
 ## Running simulation 
@@ -23,7 +26,7 @@
     * Transmission rate base
     * Transmission rate for vaccinated people
     * Transmission rate for people with mask<br>
-_Transmission rates are realtive values! For instance: person with mask will get sick with probability = [transmission rate base] * [transsmision rate for people with mask] etc. (applying independent events probability formula)._
+_Transmission rates are realtive values! For instance: person with mask will get sick with probability = [transmission rate base] * [transsmision rate for people with mask] etc. (applying independent events probability rule)._
     * Percentage of people with mask
     * Percentage of vaccinated people
     * Lockdown threshold
